@@ -75,6 +75,7 @@ def generate_launch_description():
         }.items(),
     )
 
+    #Collect all the defined nodes into one LaunchDescription
     ld = LaunchDescription()
     ld.add_action(declare_arg_map)
     ld.add_action(declare_arg_params_file)

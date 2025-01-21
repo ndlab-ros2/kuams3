@@ -1,7 +1,7 @@
 kuams3_teleop:
   ros__parameters:
-    axis_linear: 1       # The joystick axis index used for controlling linear velocity (e.g., forward/backward)
-    axis_angular: 0      # The joystick axis index used for controlling angular velocity (e.g., left/right)
-    axis_deadman: 5      # The button index used for the deadman switch
-    scale_linear: 0.3    # Scale factor for linear velocity (maximum speed)
-    scale_angular: 0.9   # Scale factor for angular velocity (maximum angular speed)
+    axis_linear: 1       # The joystick axis index used for controlling linear velocity (e.g., forward/backward)　前か後ろに動く為のボタンやスティックの指定
+    axis_angular: 0      # The joystick axis index used for controlling angular velocity (e.g., left/right)　z軸周りに右か左に回転する為のボタンやスティックの指定
+    axis_deadman: 5      # The button index used for the deadman switch　そのボタンを押している間のみ操作が可能となるようなボタンの設定
+    scale_linear: 0.3    # Scale factor for linear velocity (maximum speed)　並進運動の速度
+    scale_angular: 0.9   # Scale factor for angular velocity (maximum angular speed)　回転速度の設定

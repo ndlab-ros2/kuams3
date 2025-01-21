@@ -12,11 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+
+#Importing modules to run on any OS
 import os
 
+#Importing a function to get the path of a specified package from the ament build system
 from ament_index_python.packages import get_package_share_directory
 
+#Importing modules to illustrate launch files
 from launch import LaunchDescription
+
+#
 from launch.actions import (DeclareLaunchArgument, GroupAction,
                             IncludeLaunchDescription, SetEnvironmentVariable)
 from launch.conditions import IfCondition

@@ -1,4 +1,4 @@
-from ament_index_python.packages import get_package_share_directory
+from ament_index_python.packages import get_package_share_directory  
 from launch import LaunchDescription
 from launch_ros.actions import Node
 import os
@@ -8,7 +8,7 @@ def generate_launch_description():
     config_file_path = os.path.join(
         get_package_share_directory(package_name),
         'config',
-        'config_kuams3_teleop.yaml'
+        'config/config_kuams3_teleop.yaml'
     )
 
     return LaunchDescription([
@@ -30,7 +30,7 @@ def generate_launch_description():
             output='screen',
             parameters=[config_file_path],
             remappings=[
-                ('cmd_vel', '/rover_twist')
+                ('cmd_vel', 'rover_twist')
             ]
         ),
     ])

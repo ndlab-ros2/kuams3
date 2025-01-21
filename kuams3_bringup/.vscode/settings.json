@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/keisoku/kuams3_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/keisoku/kuams3_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/urdf_test/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/joy_controller/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/crane_x7_description/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/control_joy/lib/python3.10/site-packages",
+        "/home/keisoku/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/keisoku/kuams3_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/home/keisoku/kuams3_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/urdf_test/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/livox_ros_driver2/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/joy_controller/lib/python3.10/site-packages",
+        "/home/keisoku/ros2_ws/install/crane_x7_description/local/lib/python3.10/dist-packages",
+        "/home/keisoku/ros2_ws/install/control_joy/lib/python3.10/site-packages",
+        "/home/keisoku/uros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
